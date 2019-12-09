@@ -9,6 +9,8 @@ html {
   border-top: 3px solid #2d5a4d;
   border-bottom: 3px solid #2d5a4d;
   background-size: 64px auto;
+  background-repeat: repeat;
+  background-position: left top, left bottom, left top;
 }
 
 .logo {
@@ -37,8 +39,9 @@ html {
 }
 
 .banner {
-  background-size: cover;
   color: #fff;
+  background: linear-gradient(to bottom, rgba(16, 52, 41, 0) 50%, rgba(16, 52, 41, .8)), url("../images/banner.jpg") bottom center;
+  background-size: cover;
 }
 
 .banner-content {
@@ -46,6 +49,7 @@ html {
   background-position: 12px 180px;
   padding-top: 301.25px;
   background-repeat: no-repeat;
+  background-size: 100px;
 }
 
 @media only screen and (min-width: 60em) {
